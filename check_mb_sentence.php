@@ -15,7 +15,7 @@ if($data === false) {
 }
 
 // Yahooの校正支援を利用
-$api = 'http://jlp.yahooapis.jp/KouseiService/V1/kousei';
+$api = 'https://jlp.yahooapis.jp/KouseiService/V1/kousei';
 // 環境変数からアプリケーションIDを取得
 $appid = getenv('YAHOO_APPID');
 $ch = curl_init($api);
